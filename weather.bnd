@@ -1,0 +1,10 @@
+Export-Package: com.infairy.cocina.App.weather
+Bundle-Name: Infairy Weather App
+Bundle-Vendor: Infairy Tech.
+Bundle-Version: 2.0.16010401
+Bundle-Activator: com.infairy.cocina.App.weather.WEATHER
+Bundle-Description: Infairy Weather App
+Bundle-SymbolicName: com.infairy.cocina.App.weather
+Include-Resource: ../lib/dex/com.infairy.smarthome.tools.jar, ../lib/dex/java-json.jar, ../Layout/Weather
+Import-Package: com.infairy.cocina.SDK.gene;version=!,com.infairy.cocina.SDK.Layout;version=!,com.infairy.cocina.SDK.device;version=!,com.infairy.cocina.SDK.property;version=!,org.osgi.framework;version=!,javax.servlet.http;version=!,org.osgi.service.http;version=!, org.osgi.util.tracker;version=!, org.w3c.dom;version=!, org.osgi.service.event;version=!
+Bundle-ClassPath: .,com.infairy.smarthome.tools.jar, java-json.jar
